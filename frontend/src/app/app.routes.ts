@@ -4,6 +4,7 @@ import { UserCreateComponent } from './components/user-create/user-create.compon
 import { UserListComponent } from './components/user-list/user-list.component';
 import { UserEditComponent } from './components/user-edit/user-edit.component';
 import { CalculatorComponent } from './calculator/calculator.component';
+import { HttpClientModule } from '@angular/common/http';
 
  const routes: Routes = [
 

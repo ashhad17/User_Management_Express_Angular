@@ -1,0 +1,16 @@
+<div class="container">
+    <h2>BODMAS Calculator</h2>
+  
+    <input type="text"
+           [(ngModel)]="expression"
+           (input)="updateResult()"
+           placeholder="Enter expression e.g. 1+2*3/4"
+           />
+  
+    <div class="result" *ngIf="expression">
+      <p><strong>Result:</strong> {{ result }}</p>
+    </div>
+  
+    <button (click)="clear()">Clear</button>
+  </div>
+  

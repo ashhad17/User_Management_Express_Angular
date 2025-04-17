@@ -1,0 +1,6 @@
+<h2>Edit User</h2>
+<form (ngSubmit)="updateUser()" *ngIf="user">
+  <input type="text" [(ngModel)]="user.username" name="username" />
+  <input type="password" [(ngModel)]="user.password" name="password" />
+  <button type="submit">Update</button>
+</form>
